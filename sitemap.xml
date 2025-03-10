@@ -3,35 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://sakuryo.app/categories/</loc>
-    <lastmod>2022-08-27T09:16:45+00:00</lastmod>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakuryo.app/categories/hello/</loc>
-    <lastmod>2022-08-27T09:16:45+00:00</lastmod>
+    <loc>https://sakuryo.app/categories/development/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakuryo.app/tags/hello/</loc>
-    <lastmod>2022-08-27T09:16:45+00:00</lastmod>
+    <loc>https://sakuryo.app/tags/development/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sakuryo.app/posts/markdown-cheat-sheet/</loc>
-    <lastmod>2022-08-27T09:16:45+00:00</lastmod>
+    <loc>https://sakuryo.app/tags/ideas/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sakuryo.app/posts/1-scratching-out-some-initial-ideas/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sakuryo.app/posts/</loc>
-    <lastmod>2022-08-27T09:16:45+00:00</lastmod>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sakuryo.app/tags/</loc>
-    <lastmod>2022-08-27T09:16:45+00:00</lastmod>
-  </url><url>
-    <loc>https://sakuryo.app/tags/whatsapp/</loc>
-    <lastmod>2022-08-27T09:16:45+00:00</lastmod>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sakuryo.app/</loc>
-    <lastmod>2022-08-27T09:16:45+00:00</lastmod>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sakuryo.app/about/</loc>
   </url><url>
-    <loc>https://sakuryo.app/categories/css/</loc>
-  </url><url>
-    <loc>https://sakuryo.app/categories/javascript/</loc>
-  </url><url>
-    <loc>https://sakuryo.app/categories/uncategories/</loc>
+    <loc>https://sakuryo.app/categories/developement/</loc>
   </url>
 </urlset>
