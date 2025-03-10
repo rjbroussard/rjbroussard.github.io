@@ -5,12 +5,12 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Development</title>
+<title>My first Proof of Concept - Draw the Kana</title>
 <meta
   name="description"
-  content=""
+  content="Describing my initial progress on a tool that can show and test me on how to write Japanese Character"
 />
-<link rel="canonical" href="http://localhost:1313/tags/development/" />
+<link rel="canonical" href="http://localhost:1313/posts/2-first-poc-drawing-characters/" />
 <link rel="robots" href="/robots.txt" />
 
 <link rel="icon" type="image/x-icon" href="/icons/sakuryo-favicon.png" />
@@ -153,45 +153,75 @@
 <div class="flex flex-col gap-1">
   <h1 class="text-2xl font-extrabold">
     
-      Development
+      My first Proof of Concept - Draw the Kana
       
     </h1>
   
   
+    <h1 id="can-i-write-hiragana-correctly-lets-see">Can I write Hiragana Correctly? Let’s See!</h1>
+<p>This post is going up a bit after my progress with most of the work being done on Feb 20.</p>
+<p>So, I have a working Web page that can test if you have drawn the hiragana Characters correctly. It will work with any Japanese character as well, but I have just a few kana Hardcoded.</p>
+<p>It works like this&hellip;</p>
+<p>There is a font that has the strokes numbered and showing where to draw. You can trace over the font and check your drawing by sending the data to a backend which will check how many pixels are overlapping with the character. If it is more than a threshold -&gt; Correct! else -&gt; incorrect.</p>
+<p>It seems to work well.</p>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/2-first-poc-drawing-characters/draw-kana-v1-preview.png"  alt="Draw Kana"  width="822" height="765" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Draw Kana
+    </figcaption>
+  
+</figure>
+<p>As you draw characters Correctly it will show you more that you have not seen before until you have drawn them all.</p>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/2-first-poc-drawing-characters/draw-kana-v1-drawn.png"  alt="Draw Kana"  width="725" height="694" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Draw Kana
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/2-first-poc-drawing-characters/draw-kana-v1-drawn-2.png"  alt="Draw Kana"  width="750" height="732" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Draw Kana
+    </figcaption>
+  
+</figure>
+<p>In its current state It feels fun to have completed something that seems useful. But I will probably break down the components to use in an SRS style Learning system.</p>
+<p>I may do a full redesign to create something that does not use fonts but instead used vector graphics and does not rely on you having to cover the image completely. Especially Since I have found a great data set for stroke order that is in vector graphics. This will also let me draw each vector/stroke one at a time hide strokes and create animations. That way I can make something that can determine if you have drawn the character (mostly)
+correctly even when I hide the strokes. (Thinking a bit about How I will make the flash cards.)</p>
+<p>Anyways progress made feels good.</p>
+
+  
 </div>
 
 <section class="flex flex-col gap-10">
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="http://localhost:1313/posts/1-scratching-out-some-initial-ideas/">Initial Ideas Must Haves for the App</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-03-10 00:00:00 &#43;0000 UTC" title='Mon, Mar 10, 2025, 12:00 AM UTC'>
-      10/03/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      I talk about what I want sakuryo to do for me -- my initial ideas and plans
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="http://localhost:1313/posts/1-scratching-out-some-initial-ideas/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
   
 </section>
 

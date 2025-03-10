@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proof of Concept on Sakuryo App Blog</title>
+    <link>http://localhost:1313/tags/proof-of-concept/</link>
+    <description>Recent content in Proof of Concept on Sakuryo App Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/proof-of-concept/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first Proof of Concept</title>
+      <link>http://localhost:1313/posts/2-first-poc-drawing-characters/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2-first-poc-drawing-characters/</guid>
+      <description>&lt;h1 id=&#34;can-i-write-hiragana-correctly-lets-see&#34;&gt;Can I write Hiragana Correctly? Lets See!&lt;/h1&gt;&#xA;&lt;p&gt;This post is going up a bit after my progress with most of the work being done on Feb 20.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
