@@ -6,11 +6,17 @@ Disallow: /categories/development/
 
 Disallow: /tags/development/
 
+Disallow: /tags/feature/
+
 Disallow: /tags/ideas/
 
 Disallow: /posts/1-scratching-out-some-initial-ideas/
 
+Disallow: /posts/2-first-poc-drawing-characters/
+
 Disallow: /posts/
+
+Disallow: /tags/proof-of-concept/
 
 Disallow: /tags/
 
