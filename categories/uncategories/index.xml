@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncategories on Sakuryo App Blog</title>
-    <link>http://sakuryo.app/categories/uncategories/</link>
+    <link>https://rjbroussard.github.io/categories/uncategories/</link>
     <description>Recent content in Uncategories on Sakuryo App Blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <atom:link href="http://sakuryo.app/categories/uncategories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rjbroussard.github.io/categories/uncategories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
