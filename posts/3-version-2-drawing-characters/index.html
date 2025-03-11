@@ -5,12 +5,12 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Post</title>
+<title>Draw the Kana - Version 2</title>
 <meta
   name="description"
-  content="See What I’ve Written Lately"
+  content="Describing my initial progress on a tool that can show and test me on how to write Japanese Character"
 />
-<link rel="canonical" href="https://sakuryo.app/posts/" />
+<link rel="canonical" href="https://sakuryo.app/posts/3-version-2-drawing-characters/" />
 <link rel="robots" href="/robots.txt" />
 
 <link rel="icon" type="image/x-icon" href="/icons/sakuryo-favicon.png" />
@@ -63,7 +63,7 @@
     </li>
     
     <li>
-      <a href="/posts" class=" active ">
+      <a href="/posts" class="">
         Posts
       </a>
     </li>
@@ -153,110 +153,42 @@
 <div class="flex flex-col gap-1">
   <h1 class="text-2xl font-extrabold">
     
-      Latest Posts
-    
+      Draw the Kana - Version 2
+      
     </h1>
   
   
-    <p>See What I’ve Written Lately</p>
+    <h1 id="can-i-write-hiragana-correctly-lets-see-version-2">Can I write Hiragana Correctly? Let’s See! Version 2</h1>
+<p>In the last post I expressed some dissatisfaction with the current prototype and some ideas about changes I could make</p>
+<blockquote>
+<p>I may do a full redesign to create something that does not use fonts but instead used vector graphics and does not rely on you having to cover the image completely. Especially Since I have found a great data set for stroke order that is in vector graphics. This will also let me draw each vector/stroke one at a time hide strokes and create animations. That way I can make something that can determine if you have drawn the character (mostly)
+correctly even when I hide the strokes. (Thinking a bit about How I will make the flash cards.)</p></blockquote>
+<p>Well&hellip; now version 2 is ready to show!</p>
+<p>I have incorporated some of the ideas I mentioned and switched over to SVG files.
+Have a look!</p>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/3-version-2-drawing-characters/draw-kana-v2-drawing.gif"  alt="Draw Kana V2"  width="426" height="240" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Draw Kana
+    </figcaption>
+  
+</figure>
+<p>I now have to ability to hide strokes to better support testing stroke knowledge, and you no longer must draw the strokes directly on the shadow. If you are close to the stroke path, that is accepted.</p>
+<p>Once I do some more testing to smooth out some false attempts to draw strokes, I should be ready to make it pretty and integrate with an SRS system and data sources.</p>
 
   
 </div>
 
 <section class="flex flex-col gap-10">
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="https://sakuryo.app/posts/3-version-2-drawing-characters/">Draw the Kana - Version 2</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-03-11 00:00:00 &#43;0000 UTC" title='Tue, Mar 11, 2025, 12:00 AM UTC'>
-      11/03/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      Describing my initial progress on a tool that can show and test me on how to write Japanese Character
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="https://sakuryo.app/posts/3-version-2-drawing-characters/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="https://sakuryo.app/posts/1-scratching-out-some-initial-ideas/">Initial Ideas Must Haves for the App</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-03-10 00:00:00 &#43;0000 UTC" title='Mon, Mar 10, 2025, 12:00 AM UTC'>
-      10/03/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      I talk about what I want sakuryo to do for me -- my initial ideas and plans
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="https://sakuryo.app/posts/1-scratching-out-some-initial-ideas/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="https://sakuryo.app/posts/2-first-poc-drawing-characters/">My first Proof of Concept - Draw the Kana</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-03-10 00:00:00 &#43;0000 UTC" title='Mon, Mar 10, 2025, 12:00 AM UTC'>
-      10/03/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      Describing my initial progress on a tool that can show and test me on how to write Japanese Character
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="https://sakuryo.app/posts/2-first-poc-drawing-characters/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
   
 </section>
 

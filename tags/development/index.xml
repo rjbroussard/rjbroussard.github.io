@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sakuryo.app/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Draw the Kana - Version 2</title>
+      <link>https://sakuryo.app/posts/3-version-2-drawing-characters/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://sakuryo.app/posts/3-version-2-drawing-characters/</guid>
+      <description>&lt;h1 id=&#34;can-i-write-hiragana-correctly-lets-see-version-2&#34;&gt;Can I write Hiragana Correctly? Let’s See! Version 2&lt;/h1&gt;&#xA;&lt;p&gt;In the last post I expressed some dissatisfaction with the current prototype and some ideas about changes I could make&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Initial Ideas Must Haves for the App</title>
       <link>https://sakuryo.app/posts/1-scratching-out-some-initial-ideas/</link>
