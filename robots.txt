@@ -2,6 +2,8 @@ User-agent: *
 
 Disallow: /categories/
 
+Disallow: /posts/4-data-piplenes-and-second-poc/
+
 Disallow: /categories/development/
 
 Disallow: /tags/development/

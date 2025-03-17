@@ -5,12 +5,12 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ideas</title>
+<title>Data, Pipelines, The second POC - A JP-EN Dictionary</title>
 <meta
   name="description"
-  content=""
+  content="I found some data sources and created a &#34;good enough for now&#34; dictionary."
 />
-<link rel="canonical" href="http://localhost:1313/tags/ideas/" />
+<link rel="canonical" href="http://localhost:1313/posts/4-data-piplenes-and-second-poc/" />
 <link rel="robots" href="/robots.txt" />
 
 <link rel="icon" type="image/x-icon" href="/icons/sakuryo-favicon.png" />
@@ -153,45 +153,81 @@
 <div class="flex flex-col gap-1">
   <h1 class="text-2xl font-extrabold">
     
-      Ideas
+      Data, Pipelines, The second POC - A JP-EN Dictionary
       
     </h1>
   
   
+    <h1 id="creating-sakuryos-dictionary">Creating Sakuryo&rsquo;s Dictionary</h1>
+<p>In my ideas post I mentioned that the app will need data sources and a way to query them though a catalog/dictionary</p>
+<blockquote>
+<ol start="6">
+<li><strong>A catalog/dictionary for looking up words that is aware of what you know and remembers what you search</strong></li>
+</ol>
+<ul>
+<li>Must be at least as good as any dictionary I use now; I must want to use it.</li>
+</ul></blockquote>
+<p>I now have a first POC to show and it is really almost good enough to use now!
+It still lacks the required data to create a good enough EN -&gt; JP search ranking but the JP -&gt; English is spot on!</p>
+<p>Also, I will need a new data processing pipeline to generate all the correct furigana for each kanji reading to send to the front end.</p>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/4-data-piplenes-and-second-poc/basu-search.png"  alt="Searching in Japanese"  width="900" height="1018" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Searching in Japanese
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/4-data-piplenes-and-second-poc/mizu-search.png"  alt="Searching in Japanese"  width="907" height="1029" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Searching in Japanese
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/4-data-piplenes-and-second-poc/water-search.png"  alt="Searching in English :("  width="901" height="1018" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Searching in English :(
+    </figcaption>
+  
+</figure>
+<p>I think I will pause development on the dictionary for a little while and focus more on data. This time I want many pipelines and data, more than the two ETL ones I just built.
+Progress is looking good.</p>
+<p>I am realizing that my development style might not be very appealing to most, I am attempting the problems and tasks I am least sure I can accomplish myself, first.
+I should also maybe focus on some wireframes at least soon to have a better target for what the application at an MVP state can do.
+But instead, I will work on some data pipelines.</p>
+
+  
 </div>
 
 <section class="flex flex-col gap-10">
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="http://localhost:1313/posts/1-scratching-out-some-initial-ideas/">Initial Ideas Must Haves for the App</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-03-10 00:00:00 &#43;0000 UTC" title='Mon, Mar 10, 2025, 12:00 AM UTC'>
-      10/03/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      I talk about what I want sakuryo to do for me -- my initial ideas and plans
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="http://localhost:1313/posts/1-scratching-out-some-initial-ideas/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
   
 </section>
 

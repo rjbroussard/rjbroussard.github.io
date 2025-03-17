@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developemnt on Sakuryo App Blog</title>
-    <link>https://sakuryo.app/categories/developement/</link>
+    <link>http://localhost:1313/categories/developement/</link>
     <description>Recent content in Developemnt on Sakuryo App Blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <atom:link href="https://sakuryo.app/categories/developement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/developement/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
