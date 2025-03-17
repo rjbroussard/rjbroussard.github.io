@@ -2,39 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on Sakuryo App Blog</title>
-    <link>http://localhost:1313/categories/development/</link>
+    <link>https://sakuryo.app/categories/development/</link>
     <description>Recent content in Development on Sakuryo App Blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/development/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Data, Pipelines, The second POC - A JP-EN Dictionary</title>
-      <link>http://localhost:1313/posts/4-data-piplenes-and-second-poc/</link>
-      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/4-data-piplenes-and-second-poc/</guid>
-      <description>&lt;h1 id=&#34;creating-sakuryos-dictionary&#34;&gt;Creating Sakuryo&amp;rsquo;s Dictionary&lt;/h1&gt;&#xA;&lt;p&gt;In my ideas post I mentioned that the app will need data sources and a way to query them though a catalog/dictionary&lt;/p&gt;</description>
-    </item>
+    <atom:link href="https://sakuryo.app/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Draw the Kana - Version 2</title>
-      <link>http://localhost:1313/posts/3-version-2-drawing-characters/</link>
+      <link>https://sakuryo.app/posts/3-version-2-drawing-characters/</link>
       <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/3-version-2-drawing-characters/</guid>
+      <guid>https://sakuryo.app/posts/3-version-2-drawing-characters/</guid>
       <description>&lt;h1 id=&#34;can-i-write-hiragana-correctly-lets-see-version-2&#34;&gt;Can I write Hiragana Correctly? Let’s See! Version 2&lt;/h1&gt;&#xA;&lt;p&gt;In the last post I expressed some dissatisfaction with the current prototype and some ideas about changes I could make&lt;/p&gt;</description>
     </item>
     <item>
       <title>Initial Ideas Must Haves for the App</title>
-      <link>http://localhost:1313/posts/1-scratching-out-some-initial-ideas/</link>
+      <link>https://sakuryo.app/posts/1-scratching-out-some-initial-ideas/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/1-scratching-out-some-initial-ideas/</guid>
+      <guid>https://sakuryo.app/posts/1-scratching-out-some-initial-ideas/</guid>
       <description>&lt;h1 id=&#34;what-sakuryo-can-do-for-me&#34;&gt;What Sakuryo can do for &lt;em&gt;Me&lt;/em&gt;&lt;/h1&gt;&#xA;&lt;p&gt;I like data and I love to see visually my progress in Learning Japanese. I want a way to see where I am at and feel good about my progress. I also want to see very clearly, opportunities for improvement.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My first Proof of Concept - Draw the Kana</title>
-      <link>http://localhost:1313/posts/2-first-poc-drawing-characters/</link>
+      <link>https://sakuryo.app/posts/2-first-poc-drawing-characters/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2-first-poc-drawing-characters/</guid>
+      <guid>https://sakuryo.app/posts/2-first-poc-drawing-characters/</guid>
       <description>&lt;h1 id=&#34;can-i-write-hiragana-correctly-lets-see&#34;&gt;Can I write Hiragana Correctly? Let’s See!&lt;/h1&gt;&#xA;&lt;p&gt;This post is going up a bit after my progress with most of the work being done on Feb 20.&lt;/p&gt;</description>
     </item>
   </channel>
