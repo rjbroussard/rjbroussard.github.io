@@ -1,22 +1,24 @@
 User-agent: *
 
-Disallow: /posts/
-
-Disallow: /
-
 Disallow: /categories/
+
+Disallow: /posts/4-data-piplenes-and-second-poc/
 
 Disallow: /categories/development/
 
 Disallow: /tags/development/
 
-Disallow: /posts/3-version-2-drawing-characters/
-
 Disallow: /tags/feature/
+
+Disallow: /posts/
 
 Disallow: /tags/proof-of-concept/
 
 Disallow: /tags/
+
+Disallow: /
+
+Disallow: /posts/3-version-2-drawing-characters/
 
 Disallow: /tags/ideas/
 
