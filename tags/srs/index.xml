@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SRS on Sakuryo App Blog</title>
+    <link>https://sakuryo.app/tags/srs/</link>
+    <description>Recent content in SRS on Sakuryo App Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Mon, 24 Mar 2025 15:41:25 +0000</lastBuildDate>
+    <atom:link href="https://sakuryo.app/tags/srs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Simple Centralized SRS</title>
+      <link>https://sakuryo.app/posts/6-a-simple-srs/</link>
+      <pubDate>Mon, 24 Mar 2025 15:41:25 +0000</pubDate>
+      <guid>https://sakuryo.app/posts/6-a-simple-srs/</guid>
+      <description>&lt;h1 id=&#34;creating-sakuryos-srs&#34;&gt;Creating Sakuryo&amp;rsquo;s SRS&lt;/h1&gt;&#xA;&lt;p&gt;Sakuryo now has the beginnings of a Anki compatible SRS  that can take words directly from the dictionary and store them with your user data. The data is 100% exportable to Anki for offline study, I just have to get the formatting nice before I create that feature&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
