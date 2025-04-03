@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Thu, 27 Mar 2025 18:03:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sakuryo.app/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning Jouyou Kanji, a little Analytics, backend updates</title>
+      <link>https://sakuryo.app/posts/8-learning-jouyou-kanji/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://sakuryo.app/posts/8-learning-jouyou-kanji/</guid>
+      <description>&lt;h1 id=&#34;a-little-bit-of-collapsible-analytics-and-a-jouyou-kanji-deck-build-in&#34;&gt;A little bit of collapsible analytics and A Jouyou kanji deck build in&lt;/h1&gt;&#xA;&lt;h4 id=&#34;also-mobile-screens&#34;&gt;Also, mobile screens&lt;/h4&gt;&#xA;&lt;p&gt;I have spent a little bit of time working on the kanji Study feature trying to get it to the point where I can find it useful. For me that means at least a built-in study deck and some analytic.&#xA;And that is what we have here&amp;hellip;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sakuryo&#39;s new look &amp; SRS based Kanji learning.</title>
       <link>https://sakuryo.app/posts/7-a-new-look-kanji-flash-cards/</link>
