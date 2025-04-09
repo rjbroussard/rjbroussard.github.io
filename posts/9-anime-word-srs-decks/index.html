@@ -5,12 +5,12 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Post</title>
+<title>Adding Prebuilt SRS Anime word Decks to Sakuryo</title>
 <meta
   name="description"
-  content="See What I’ve Written Lately"
+  content="There is now the crude beginnings of Anime words study decks."
 />
-<link rel="canonical" href="https://sakuryo.app/posts/" />
+<link rel="canonical" href="https://sakuryo.app/posts/9-anime-word-srs-decks/" />
 <link rel="robots" href="/robots.txt" />
 
 <link rel="icon" type="image/x-icon" href="/icons/sakuryo-favicon.png" />
@@ -79,7 +79,7 @@
     </li>
     
     <li>
-      <a href="/posts" class=" active ">
+      <a href="/posts" class="">
         Posts
       </a>
     </li>
@@ -169,197 +169,77 @@
 <div class="flex flex-col gap-1">
   <h1 class="text-2xl font-extrabold">
     
-      Latest Posts
-    
+      Adding Prebuilt SRS Anime word Decks to Sakuryo
+      
     </h1>
   
   
-    <p>See What I’ve Written Lately</p>
+    <h1 id="choose-an-anime-episode-or-series-to-study-and-add-the-words-to-your-study-deck">Choose an anime episode or series to study and add the words to your study deck.</h1>
+<p>This feature is and has been taking almost a week to make due to technical challenges and my optimism that I can make it exactly like I want it to be. You can now select an anime episode or series to study and view the words that are in each episode ordered by the frequency that the appear in the episode. There are also now button to quick add the words to your study deck from either an episode or series.</p>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/9-anime-word-srs-decks/anime-series-choose.png"  alt="Choose an anime Series"  width="955" height="941" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Choose an anime Series
+    </figcaption>
+  
+</figure>
+<blockquote>
+<p>So far I have only ran the pipelines to create the frequency data on two series, but I should be able to now process one or two more series every day.</p></blockquote>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/9-anime-word-srs-decks/anime-add-all-words-from-series.png"  alt="Choose an Episode"  width="941" height="941" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      Choose an Episode
+    </figcaption>
+  
+</figure>
+
+
+
+
+
+<figure class='mb-5'>
+  <img src="/posts/9-anime-word-srs-decks/anime-add-all-words-frequencies.png"  alt="View frequency data"  width="939" height="941" />
+  
+  
+    <figcaption 
+      class=''
+    >
+      View frequency data
+    </figcaption>
+  
+</figure>
+<p>The frequency data is stored as just references to dictionary entries it should be very lightweight and have the same shared features as the dictionary.</p>
+<p>I wanted the words from each anime to go into different decks at first or at least be tracked as separate decks to make studying more organized. This want is what led me so spend so much time on the base feature. Every version of this that I made I was un happy with though as it seems to break one of the main tenants of what I want sakuryo to be. With anki, if you make separate decks the analytics and tracking of <em>all</em> the words you know become too complicated, and with Anki&rsquo;s built in filtered decks you can get close to creating sub decks of sorts that track the main deck. The problem with this was you cannot have the same word in multiple filtered decks.</p>
+<p>To create a solution where sakuryo can track all the words you know easily and allow you to have multiple decks will take a more complicated and most likely more flaky solution.</p>
+<p>This is possible though with Kanji and is what we are doing now with jouyou kanji levels, but this is only possible because there is no overlap in the kanji between the levels, while different anime series and episodes will have overlap in the words.</p>
+<p>What I can do in the meantime is think of some smart way to manage your one deck, by adding tags to words you have added from different series and allow you to remove and sort yet to be studied words with these tags.
+I also want a way to quickly &ldquo;Re-focus&rdquo; a deck so that you can remove all words that you have yet to study and add the words from a new series. That way you can pivot quickly to a different series, without losing the words you have already added.</p>
+<p>This means the next most needed feature for sakuryo is a deck manager, which I will probably start on next week after I clean up the code for anime decks first and get it to a good place as it is a very minimal implementation at the moment.</p>
 
   
 </div>
 
 <section class="flex flex-col gap-10">
   
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="https://sakuryo.app/posts/9-anime-word-srs-decks/">Adding Prebuilt SRS Anime word Decks to Sakuryo</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-04-09 00:00:00 &#43;0000 UTC" title='Wed, Apr 9, 2025, 12:00 AM UTC'>
-      09/04/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      There is now the crude beginnings of Anime words study decks.
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="https://sakuryo.app/posts/9-anime-word-srs-decks/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="https://sakuryo.app/posts/8-learning-jouyou-kanji/">Learning Jouyou Kanji, a little Analytics, backend updates</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-04-03 00:00:00 &#43;0000 UTC" title='Thu, Apr 3, 2025, 12:00 AM UTC'>
-      03/04/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      Another update to the kanji SRS learning system.
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="https://sakuryo.app/posts/8-learning-jouyou-kanji/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="https://sakuryo.app/posts/7-a-new-look-kanji-flash-cards/">Sakuryo&#39;s new look &amp; SRS based Kanji learning.</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-03-27 18:03:00 &#43;0000 UTC" title='Thu, Mar 27, 2025, 6:03 PM UTC'>
-      27/03/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      Learn Japanese with Sakuryo and its new kanji SRS learning system.
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="https://sakuryo.app/posts/7-a-new-look-kanji-flash-cards/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="https://sakuryo.app/posts/6-a-simple-srs/">A Simple Centralized SRS</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-03-24 15:41:25 &#43;0000 UTC" title='Mon, Mar 24, 2025, 3:41 PM UTC'>
-      24/03/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      I have linked the dictionary data, user data, and an SRS to bring in personalized SRS study to sakuryo
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="https://sakuryo.app/posts/6-a-simple-srs/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
-  
-    <article class="flex flex-col gap-1">
-  <h1>
-    <a href="https://sakuryo.app/posts/5-a-really-good-japanese-dict/">A JP-EN Dictionary I want to use is here.</a>
-  </h1>
-  
-  <span class="date">
-    <time datetime="2025-03-20 00:00:00 &#43;0000 UTC" title='Thu, Mar 20, 2025, 12:00 AM UTC'>
-      20/03/2025
-    </time>
-  </span>
-
-  <div class="description">
-    
-      I Have a Quite Good working Japanese Dictionary.
-    
-  </div>
-
-  <div class="mt-2">
-    <a class="read-more" href="https://sakuryo.app/posts/5-a-really-good-japanese-dict/">
-      Read more
-      <span class="w-4 h-4 stroke-2">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
-
-      </span>
-    </a>
-  </div>
-</article>
-
-  
 </section>
-
-
-  
-
-<div class="pb-10 grid grid-cols-2 font-semibold">
-  
-  <div>
-    
-  </div>
-
-  
-  <div class="flex justify-end">
-    
-      <a href="/posts/page/2/" class="pagination-button">
-        Older Posts
-        <span class="h-4 w-4 stroke-2"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-</svg>
- </span>
-      </a>
-    
-  </div>
-</div>
 
 
 
